@@ -1,0 +1,2 @@
+#!/bin/bash
+watchman-make -p 'lib/**/*' 'spec/**/*' -r 'bundle exec rspec'
